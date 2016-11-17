@@ -1,0 +1,12 @@
+{
+    "name": "job/worktest",
+    "type": "project",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "zendframework/zend-mvc": "^3.0",
+        "zendframework/zend-cache": "^2.7",
+        "zendframework/zend-mvc-console": "^1.1",
+        "zendframework/zend-router": "^3.0"
+    }
+}
