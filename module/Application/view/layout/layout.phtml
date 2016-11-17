@@ -1,0 +1,19 @@
+<?php print $this->doctype(); ?>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <?php print $this->headMeta()
+            ->appendName('viewport', 'width=device-width, initial-scale=1.0')
+            ->appendHttpEquiv('X-UA-Compatible', 'IE=edge')
+        ?>
+
+    </head>
+    <body>
+        <div class="container">
+            <?php print $this->content ?>
+        </div>
+        <?php print $this->inlineScript() ?>
+    </body>
+</html>
